@@ -1,0 +1,81 @@
+.HS__Container{
+    width:100%;
+}
+.Banner__HS{
+            width:100%;
+            height:500px;
+            position:relative;
+}
+.Banner__HS>img{
+    width:100%;
+    height:100%;
+}
+.HS__BannerText{
+    height:60px;
+    width:45%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%);
+    color:white;
+    font-size:1.5rem;
+}
+
+.HeatlthInfo__Section{
+    width:100%;
+    display:flex;
+    align-items:center;
+    padding:4% 15%;
+    box-sizing:border-box;
+    font-size:1.2rem;
+}
+.HeatlthInfo__Section>div{
+    width:50%;
+    height:100%;
+    box-sizing:border-box;
+
+}
+.HeatlthInfo__Section>div>h4{
+    color:#10439F;
+}
+.imgCnt{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.HeatlthInfo__Section>div>img{
+    height:80%;
+    width:80%;
+}
+
+
+
+.HeatlthInfo__Section__Invert{
+    width:100%;
+    display:flex;
+    align-items:center;
+    padding:5% 15%;
+    box-sizing:border-box;
+    font-size:1.2rem;
+    background:#f1f1f1;
+}
+.HeatlthInfo__Section__Invert>div>h4{
+    color:#10439F;
+}
+.imgCntInvert{
+    order:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.HeatlthInfo__Section__Invert>div>img{
+    height:80%;
+    width:80%;
+    
+}
+.HeatlthInfo__Section__Invert>div{
+    width:50%;
+    height:100%;
+    box-sizing:border-box;
+
+}

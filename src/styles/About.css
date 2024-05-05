@@ -1,0 +1,30 @@
+.About__Section{
+    background-color:#ffc107;
+    width:100%;
+    height:600px;
+    display:flex;
+
+}
+.Subsection1{
+    text-align:center;
+        width:50%;
+        height:100%;
+        padding:50px;
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+}
+
+.Subsection1>p{
+   
+    font-size:1.2rem;
+}
+.Subsection2{
+    width:50%;
+    height:100%;
+}
+.Subsection2>img{
+    height:70%;
+    width:100%;
+}

@@ -1,0 +1,39 @@
+.Events__Section{
+    width:100%;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    padding:20px 0;
+    font-size:1.2em;
+    box-sizing:border-box;
+}
+.Events__Section>h1{
+    color:#10439F;
+}
+.Card__Collection{
+    padding:10px 30px;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-around;
+    flex-grow:1;
+}
+.Events__Card{
+    width:25%;
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+  
+}
+
+.Events__Card>strong{
+    margin:5px 0;
+}
+.Events__Card>img{
+        width:100%;
+        width:100%;
+        height:150px;
+        box-sizing:border-box;
+        padding:10px;
+        border:1px solid black;
+}

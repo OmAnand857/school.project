@@ -1,0 +1,36 @@
+.DirectorsMessage{
+    width:100%;
+    height:500px;
+    background-color:#B5C0D0;
+    display:flex;
+    padding:2% 7%;
+    box-sizing:border-box;
+    align-items:center;
+    justify-content:space-around;
+    font-size:1.2rem;
+}
+.DirectorImage{
+        Display:flex;
+        flex-direction:column;
+        align-items:center;
+       width:40%;
+        height:80%;
+        box-sizing:border-box;
+    }
+   
+    .DirectorImage>img{
+        height:80%;
+        width:100%;
+        
+    }
+.Message{
+        box-sizing:border-box;
+        padding-left:3%;
+        width:60%;
+}
+.Message>p{
+    margin: 10px 5px 20px 5px;
+}
+.bg-colorDiff{
+    color:#10439F;
+}

@@ -1,0 +1,155 @@
+.Navbar__Container{
+    z-index:101;
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    
+}
+
+.Top__Menu{
+    background-color:#FDCF08;
+    width:100%;
+    height:60px;
+    display:flex;
+    align-items:center;
+}
+.Top__MenuRight{
+    
+   display:flex;
+   margin-left:auto;
+   margin-right:10px;
+   cursor:pointer;
+}
+.Top__MenuRight>div{
+    margin:0 10px;
+    display:flex;
+    align-items:center;
+}
+.HeaderIcons{
+    display:flex;
+}
+.HeaderIcons>svg{
+   display:flex;
+   align-items:center;
+   margin: 0 10px;
+    height:30px;
+    width:30px;
+}
+
+.Min__Menu{
+    background-color:#fff;
+    display:flex;
+    height:80px;
+    width:100%;
+    align-items:center;
+    justify-content:space-around;
+    cursor:pointer;
+}
+.Min__MenuOptions{
+    display:flex;
+
+}
+.Min__MenuOptions>div{
+    
+    padding:0 10px;
+    border-right:2px solid black
+}
+.Header__Logo{
+    height:100%;
+}
+.Header__Logo>img{
+    width:120px;
+    height:100%;
+    object-fit:contain;
+}
+.Min__MenuDotMenu{
+        display:flex;
+        align-items:center;
+        margin: 0 5px;
+}
+
+
+
+.pageCover-bg{
+            width:100%;
+            height:100vh;
+            animation-name: splitFill;
+            animation-duration:1s;
+            position:fixed;
+            top:0;
+            z-index:100;
+            animation-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            display:flex;
+            align-items:center;
+            background-image:url("https://cdn9.dissolve.com/p/D430_35_483/D430_35_483_1200.jpg");
+            position:center;
+            background-size:cover;
+            background-repeat:no-repeat;
+           
+
+}
+@keyframes splitFill{
+    from{
+        height:0px;
+        top:50%;
+        left:0;
+    }
+    to{
+        height:100vh;top:0;left:0;
+    }
+}
+.maskImg{
+   
+    height:100vh;
+    width:100vw;
+    background-color: hwb(0 0% 100% / 0.671);
+    display:flex;
+    justify-content:center;
+    
+}
+
+
+.pageCover-bg-options{
+    margin:10% 20% 20% 20%;
+   height:50%;
+   width:60%;
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    gap:1em;
+
+    
+    
+}
+.pageCover-Op{
+    display:flex;
+    height:200px;
+    width:200px;
+    flex-direction:column;
+    text-align:left;
+    color:white;
+    font-size:1em;
+    border-right:2px solid white;
+   
+}
+.pageCover-Op>h2{
+    color:#FDCF08;
+}
+.pageCover-Op>ul{
+    margin:0;
+    text-align:left;
+}
+.pageCover-Op>ul>li{
+    margin:10px 0;
+    cursor:pointer;
+}
+li:hover{
+    color:#FDCF08;
+}
+.closeIcon{
+    position:absolute;
+    top:15%;
+    left:85%;
+}
