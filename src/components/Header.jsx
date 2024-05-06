@@ -85,27 +85,27 @@ function Header(){
                 <div className="pageCover-bg-options">
                 
                    <div className="pageCover-Op">
-                        <h2>About</h2>
+                        <h2><Link to="/" style={{textDecoration:"none",color:"#FDCF08"}} onClick={handleCollapse}>Home</Link></h2>
                         <ul>
-                                <li>Amanora School</li>
-                                <li>Our Approach</li>
+                                <li>CLICK ON YELLOW ONES ONLY HERE</li>
+                                <li>   Smaller We dont have active links</li>
                                 <li>Ryan Advantage</li>
                                 <li>Management</li>
-                                <li>Awards</li>
+                                
                         </ul>
                 </div>
                 <div className="pageCover-Op">
-                        <h2>Academics</h2>
+                        <h2><Link to="/Academics" style={{textDecoration:"none",color:"#FDCF08"}} onClick={handleCollapse}>Academics</Link></h2>
                         <ul>
                                 <li>New Age Curriculum</li>
-                                <li>Assessment</li>
+                                <li>CLICK ON BIgger Ones only TO Navigate</li>
                                
                         </ul>
                 </div>
                 <div className="pageCover-Op">
-                        <h2>Media</h2>
+                        <h2><Link to="/Testimonials" style={{textDecoration:"none",color:"#FDCF08"}} onClick={handleCollapse}>Testimonials</Link></h2>
                         <ul>
-                                <li>News</li>
+                                <li>Website is in Developmental Phase</li>
                                 <li>Blogs</li>
                                 <li>Events</li>
                                 <li>Video Gallery</li>
@@ -113,43 +113,29 @@ function Header(){
                         </ul>
                 </div>
                 <div className="pageCover-Op">
-                        <h2>Health & Safety</h2>
+                        <h2><Link to="/Health" style={{textDecoration:"none",color:"#FDCF08"}} onClick={handleCollapse}>Health & Safety</Link></h2>
                         <ul>
-                                <li>HSCP</li>
+                                <li>WEbsite in Development</li>
                                 <li>HSCP Alert</li>
                                 <li>Emergency Protocol</li>
                         </ul>
                 </div>
                 <div className="pageCover-Op">
-                        <h2>Careers</h2>
+                        <h2><Link to="/About" style={{textDecoration:"none",color:"#FDCF08"}} onClick={handleCollapse}>About</Link></h2>
                         <ul>
-                                <li>Amanora School</li>
-                                <li>Our Approach</li>
-                                <li>Ryan Advantage</li>
+                                <li>These smaller does not have a link</li>
+                                <li>IIT Advantage</li>
                                 <li>Management</li>
                                 <li>Awards</li>
                         </ul>
                 </div>
-                <div className="pageCover-Op">
-                        <h2>Resources</h2>
-                        <ul>
-                                <li>Amanora School</li>
-                                <li>Our Approach</li>
-                                <li>Ryan Advantage</li>
-                                <li>Management</li>
-                                <li>Awards</li>
-                        </ul>
                 </div>
-                
-                
-                </div>
-
-             
-
                 </div>
 
             </div>:null}  
             </>
+
+
     );
 }
 

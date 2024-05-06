@@ -6,14 +6,16 @@
 
 }
 .Subsection1{
-    text-align:center;
         width:50%;
         height:100%;
-        padding:50px;
+        padding:30px;
         box-sizing:border-box;
         display:flex;
         flex-direction:column;
         justify-content:space-around;
+}
+.Subsection1>h3{
+    color:#10439F;
 }
 
 .Subsection1>p{
@@ -27,4 +29,33 @@
 .Subsection2>img{
     height:70%;
     width:100%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+        .Subsection1{
+            padding:10px;
+            justify-content:flex-start;
+        }
+        .Subsection1>p{
+            font-size:0.75rem;
+            margin:0;
+        };
+        .Subsection1>h3{
+                margin:0;
+        }
+        .Subsection2{
+               display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .Subsection2>img{
+            object-fit: contain;
+         
+        }
+
+
 }

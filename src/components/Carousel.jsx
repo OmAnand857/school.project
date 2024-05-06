@@ -97,6 +97,7 @@ return;
 
 
     return (
+        <>
             <div className="Carousel">
                 <button onClick= {handleClickLeft}  className="Carousel__ButtonLeft CarouselButton">
                     <ArrowBackIosIcon style={{fontSize:"4em",color:"lightgrey"}}/>
@@ -148,6 +149,28 @@ return;
                     <ArrowForwardIosIcon style={{fontSize:"4em",color:'lightgrey'}}/>
                 </button>
             </div>
+
+
+
+
+            <div className="MobileOnly">
+                            <h1>ADMISSION ENQUIRY FOR THE SESSION 2024-25</h1>
+                            <form>
+                                <input className="formInput" type="text" placeholder="Type your Name"></input>
+                                <input className="formInput" type="text" placeholder="Enter Father Email"></input>
+
+                                <div className="InputGroup"><input className="formInput" type="tel" placeholder="Enter Class"></input>
+                                <input className="formInput" type="text" placeholder="Enter PIN"></input>
+                                </div>
+                                
+                                <input className="formInput" type="text" placeholder="How Did you hear about us"></input>
+                                
+                            </form>
+                            <button className="SubmitButton" type="submit">SUBMIT</button>
+                    </div>
+
+
+            </>
     );
 
     }

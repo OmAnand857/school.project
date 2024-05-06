@@ -64,6 +64,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 .Subcomponent{
     display:flex;
     height:50px;
@@ -105,4 +114,42 @@
 .Curriculum__Card{
     height:200px;
     width:200px;
+}
+
+
+
+@media only screen and ( max-width:600px ) {
+
+       
+    .Academic__Journey>h2{
+        text-align:center;
+        margin:0;
+        margin:10px;
+    }
+    .AcademicJourney__Options{
+            height:60px;
+    }
+    .Subcomponent{
+        width:170px;
+    }
+    .Academic__FeaturesContainer{
+        gap:0.2rem;
+        justify-content: space-around;
+        align-content:normal;
+    }
+    .Academic__Curriculum{
+        padding:20px;
+        height:max-content;
+    }
+    .Curriculum__Card{
+        width:175px;
+        height:150px;
+       
+    }
+    .Curriculum__Cards{
+        margin-top:30px;
+        justify-content:space-around;
+    }
+    
+
 }

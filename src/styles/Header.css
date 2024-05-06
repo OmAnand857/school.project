@@ -75,7 +75,7 @@
             width:100%;
             height:100vh;
             animation-name: splitFill;
-            animation-duration:1s;
+            animation-duration:0.45s;
             position:fixed;
             top:0;
             z-index:100;
@@ -106,9 +106,8 @@
     background-color: hwb(0 0% 100% / 0.671);
     display:flex;
     justify-content:center;
-    
+   
 }
-
 
 .pageCover-bg-options{
     margin:10% 20% 20% 20%;
@@ -121,8 +120,8 @@
     gap:1em;
 
     
-    
 }
+
 .pageCover-Op{
     display:flex;
     height:200px;
@@ -132,6 +131,7 @@
     color:white;
     font-size:1em;
     border-right:2px solid white;
+    margin-bottom:20px;
    
 }
 .pageCover-Op>h2{
@@ -152,4 +152,48 @@ li:hover{
     position:absolute;
     top:15%;
     left:85%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .Top__Menu{
+        display:none;
+    }
+    body{
+        padding-top:80px;
+    }
+    .Min__MenuOptions{
+        display:none;
+    }
+    .Min__Menu{
+        width:100vw;
+    }
+    .Min__Menu>.Header__Logo{
+        height:80%;
+    }
+    .Min__MenuDotMenu{
+        margin:0;
+    }
+    .pageCover-bg-options{
+        margin:5%;
+        height:70%;
+        width:80%;
+    }
+    .pageCover-Op{
+        height:200px;
+        width:150px;
+    }
+    .maskImg{
+        align-items:center;
+    }
+
+
+
+
 }

@@ -19,7 +19,7 @@ function Testimonials(){
 
 
 
-
+       
 
            <div className="testWrapper"><div class="testimonial">
                 <span class="open quote">“</span>
@@ -57,9 +57,9 @@ function Testimonials(){
                 </div>
                 <span class="close quote">”</span>
             </div></div>
-          
+          </div>
 
-        </div>
+        
     );
 }
 export default Testimonials;

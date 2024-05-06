@@ -92,3 +92,32 @@ ul{
 .Footer__Section2__Div1>span{
      margin:0 20px;
 }
+
+
+@media only screen and ( max-width:600px ){
+
+    .Footer__Container{
+        height:550px;
+    }
+            .Footer__Section1{
+                flex-wrap:wrap;
+                justify-content:space-around;
+                padding:20px;
+                box-sizing:border-box;
+                
+            }
+            .Footer__Subsection>ul{
+                text-align:left;
+            }
+            
+            .FootSubsection2{
+                order:1;
+                width:100%;
+            }
+            .Footer__Subsection>ul>li{
+                margin:0;
+                margin-bottom:5px;
+            }
+
+
+}

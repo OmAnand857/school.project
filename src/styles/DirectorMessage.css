@@ -34,3 +34,12 @@
 .bg-colorDiff{
     color:#10439F;
 }
+
+@media only screen and (max-width:600px){
+
+        p{
+            font-size:0.75rem;
+        }
+
+
+}

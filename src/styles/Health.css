@@ -1,5 +1,5 @@
 .HS__Container{
-    width:100%;
+    width:100vw;
 }
 .Banner__HS{
             width:100%;
@@ -78,4 +78,25 @@
     height:100%;
     box-sizing:border-box;
 
+}
+
+@media only screen and (max-width:600px){
+
+    .HS__BannerText{
+        height:60px;
+        width:80%;
+        position:absolute;
+        top:60%;
+        left:50%;
+
+        color:white;
+        font-size:0.75rem;
+    }
+    .HeatlthInfo__Section{
+        padding:4% 20px;
+    }
+    .HeatlthInfo__Section>div>h4{
+        margin:0;
+        margin-bottom:5px;
+    }
 }
