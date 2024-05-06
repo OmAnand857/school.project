@@ -40,6 +40,9 @@
         p{
             font-size:0.75rem;
         }
+       .Message>h1{
+        font-size:1rem;
+       }
 
 
 }

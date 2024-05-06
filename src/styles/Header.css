@@ -72,7 +72,7 @@
 
 
 .pageCover-bg{
-            width:100%;
+            width:100vw;
             height:100vh;
             animation-name: splitFill;
             animation-duration:0.45s;
@@ -182,15 +182,22 @@ li:hover{
     }
     .pageCover-bg-options{
         margin:5%;
-        height:70%;
+        height:80%;
         width:80%;
     }
     .pageCover-Op{
-        height:200px;
-        width:150px;
+        height:30%;
+        width:45%;
+    }
+    .pageCover-Op>h2{
+            font-size:1rem;
     }
     .maskImg{
         align-items:center;
+    }
+    .closeIcon{
+        top:3%;
+        left:78%;
     }
 
 
